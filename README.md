@@ -1,4 +1,7 @@
-# npm run start
+# sequelize db:migrate
+run the database migrations
+
+# npm run dev
 
 Just to start the server
 
