@@ -1,3 +1,6 @@
+A simple backend with the necessary methods for querying users for the Atrato code challenge.
+The main controller is at `/src/controllers/user.controller.ts`
+
 # sequelize db:migrate
 run the database migrations
 
