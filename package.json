@@ -1,0 +1,42 @@
+{
+  "name": "start-project-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbryant/start-project-nodejs-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plbryant/start-project-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/plbryant/start-project-nodejs-typescript#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.14.1",
+    "sequelize-typescript": "^2.1.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.12",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "sequelize-cli": "^6.4.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}

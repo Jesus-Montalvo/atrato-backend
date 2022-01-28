@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "montalvo",
+    "password": "",
+    "database": "atrato",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
